@@ -208,10 +208,31 @@ ul {
 .staff-list {
   margin-top: 50px;
   margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-
 .section-work-img {
   width: calc((100%-30px * 2) / 3);
+}
+
+.team {
+  background: #f5f4fa;
+}
+
+.box {
+  width: 270px;
+  background: #ffffff;
+}
+
+.staff {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
 }
 
 .staff-name {
@@ -220,6 +241,8 @@ ul {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .staff-position {
@@ -228,6 +251,9 @@ ul {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  margin: 0;
 }
 
 .staff-list {
@@ -283,7 +309,7 @@ ul {
   letter-spacing: 0.03em;
   padding: 6px 22px;
   border: oldlace;
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .button:hover,
@@ -302,6 +328,10 @@ ul {
 .gallery-list {
   width: calc((100%-60px * 2) / 3);
   margin-bottom: 30px;
+}
+.border {
+  width: 371px;
+  border: 1px solid #eeeeee;
 }
 
 .gallery-name {
