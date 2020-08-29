@@ -200,10 +200,6 @@ ul {
   margin-bottom: 0;
 }
 
-.section-work {
-  margin: 0;
-}
-
 .section-work-list,
 .staff-list {
   margin-top: 50px;
@@ -224,7 +220,8 @@ ul {
   background: #ffffff;
 }
 
-.staff {
+.staff,
+.section-work {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
